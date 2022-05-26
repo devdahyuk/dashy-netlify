@@ -12,7 +12,12 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: colorful
-
+  auth:
+    users:
+    - user: dahyuk
+      hash: 72AB994FA2EB426C051EF59CAD617750BFE06D7CF6311285FF79C19C32AFD236
+      type: admin
+      
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Getting Started
